@@ -1,16 +1,35 @@
-# revision
+# 📝 Flutter Task App  
+A beautifully designed Flutter To-Do app featuring:
 
-A new Flutter project.
+✔ Hive local storage  
+✔ Slidable task deletion  
+✔ Custom glassmorphism UI  
+✔ Smooth animations  
+✔ Add, delete, and mark tasks as completed  
 
-## Getting Started
+##  Features
+- Add new tasks  
+- Mark tasks as completed  
+- Delete tasks with Slidable  
+- Persistent storage using **Hive**  
+- Minimal, modern UI  
+- Smooth transitions
+## 📂 Project Structure
+lib/
+│── pages/
+│ └── home_page.dart
+│── utils/
+│ ├── dialog_box.dart
+│ ├── todo_tile.dart
+│ └── my_button.dart
+│── data/
+│ └── database.dart
+└── main.dart
 
-This project is a starting point for a Flutter application.
+## 🛠 Tech Used
+- Flutter  
+- Dart  
+- Hive NoSQL Database  
+- Flutter Slidable  
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
